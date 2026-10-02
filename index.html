@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A straightforward guide to comparing programming languages, web technologies, and learning resources.">
+  <title>TechTrack — Compare technology, clearly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <a class="brand" href="#home" aria-label="TechTrack home">
+      <span class="brand-mark" aria-hidden="true">T</span>
+      <span>TechTrack</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#technologies">Technologies</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> A PRACTICAL TECHNOLOGY GUIDE</p>
+        <h1 id="hero-title">Choose your tools<br>with <span>confidence.</span></h1>
+        <p class="hero-description">Clear, side-by-side comparisons of programming languages, web technologies, and places to keep learning.</p>
+        <a class="primary-link" href="#comparison">Explore the comparisons <span aria-hidden="true">↓</span></a>
+      </div>
+      <aside class="hero-note" aria-label="About this guide">
+        <span class="note-number">01 / OVERVIEW</span>
+        <p>Good tools depend on your goals. Use these tables as a starting point, then explore the documentation and try things for yourself.</p>
+        <a href="#resources">Go to learning resources <span aria-hidden="true">↗</span></a>
+      </aside>
+    </section>
+
+    <section class="section technologies-section" id="technologies" aria-labelledby="technologies-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / TECHNOLOGY SNAPSHOT</p>
+          <h2 id="technologies-title">A quick look at the landscape</h2>
+        </div>
+        <p class="section-summary">A few common tools, grouped by the kind of work they help you do.</p>
+      </div>
+
+      <div class="technology-grid">
+        <article class="technology-card">
+          <span class="technology-tag">PROGRAMMING LANGUAGE</span>
+          <h3>Python</h3>
+          <p>A readable, general-purpose language often used for automation, data work, and back-end development.</p>
+          <ul>
+            <li>Beginner-friendly syntax</li>
+            <li>Broad package ecosystem</li>
+            <li>Useful across many fields</li>
+          </ul>
+        </article>
+        <article class="technology-card">
+          <span class="technology-tag">PROGRAMMING LANGUAGE</span>
+          <h3>JavaScript</h3>
+          <p>The language of browser interactivity, also used on servers and across modern web applications.</p>
+          <ul>
+            <li>Runs in every major browser</li>
+            <li>Front end and back end</li>
+            <li>Large developer community</li>
+          </ul>
+        </article>
+        <article class="technology-card">
+          <span class="technology-tag">WEB STANDARD</span>
+          <h3>HTML &amp; CSS</h3>
+          <p>HTML gives web pages structure; CSS controls their visual presentation and responsive layouts.</p>
+          <ul>
+            <li>Core web foundations</li>
+            <li>No build tools required to start</li>
+            <li>Essential for web design</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section comparison-section" id="comparison" aria-labelledby="comparison-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 / SIDE-BY-SIDE</p>
+          <h2 id="comparison-title">Programming languages</h2>
+        </div>
+        <p class="section-summary">A high-level overview. Each language can be used in more ways than shown here.</p>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Programming language comparison table" tabindex="0">
+        <table>
+          <caption>General characteristics of three popular programming languages</caption>
+          <thead>
+            <tr>
+              <th scope="col">Language</th>
+              <th scope="col">Often used for</th>
+              <th scope="col">Getting started</th>
+              <th scope="col">Runs in</th>
+              <th scope="col">Notable strength</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><span class="language-name">Python</span></th>
+              <td>Automation, data, back-end services</td>
+              <td>Gentle learning curve</td>
+              <td>Python runtime</td>
+              <td>Readable syntax and a broad ecosystem</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">JavaScript</span></th>
+              <td>Interactive websites, web servers</td>
+              <td>Easy to try in a browser</td>
+              <td>Web browsers, server runtimes</td>
+              <td>Native support across the web</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">Java</span></th>
+              <td>Enterprise software, Android apps</td>
+              <td>Structured, explicit foundations</td>
+              <td>Java Virtual Machine</td>
+              <td>Portability and mature tooling</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">C#</span></th>
+              <td>Business software, games, web apps</td>
+              <td>Guided tools and strong IDE support</td>
+              <td>.NET runtime</td>
+              <td>Versatile language and platform</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">There is no universal “best” language. Consider your project, interests, available tools, and the community you want to learn with.</p>
+    </section>
+
+    <section class="section web-section" aria-labelledby="web-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 / THE WEB TOOLKIT</p>
+          <h2 id="web-title">How web technologies fit together</h2>
+        </div>
+        <p class="section-summary">The browser combines different technologies to present and operate a web page.</p>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Web technology roles table" tabindex="0">
+        <table>
+          <caption>Common web technologies and the roles they play</caption>
+          <thead>
+            <tr>
+              <th scope="col">Technology</th>
+              <th scope="col">Role</th>
+              <th scope="col">Example</th>
+              <th scope="col">Required to begin?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><span class="language-name">HTML</span></th>
+              <td>Structures page content</td>
+              <td>Headings, links, tables, forms</td>
+              <td>Yes, for web documents</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">CSS</span></th>
+              <td>Styles and lays out content</td>
+              <td>Colors, spacing, responsive design</td>
+              <td>Optional, but used for presentation</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">JavaScript</span></th>
+              <td>Adds behavior and interactivity</td>
+              <td>Menus, validation, dynamic content</td>
+              <td>Optional for static pages</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources" aria-labelledby="resources-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">04 / KEEP LEARNING</p>
+          <h2 id="resources-title">Useful places to start</h2>
+        </div>
+        <p class="section-summary">Documentation and guided learning for your next step.</p>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Technology learning resources table" tabindex="0">
+        <table>
+          <caption>Official documentation and learning resources</caption>
+          <thead>
+            <tr>
+              <th scope="col">Resource</th>
+              <th scope="col">Topic</th>
+              <th scope="col">Good for</th>
+              <th scope="col">Visit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><span class="language-name">MDN Web Docs</span></th>
+              <td>HTML, CSS, JavaScript</td>
+              <td>Reference guides and tutorials</td>
+              <td><a class="resource-link" href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">Open MDN ↗</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">Python Docs</span></th>
+              <td>Python</td>
+              <td>Language reference and tutorial</td>
+              <td><a class="resource-link" href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">Open Python docs ↗</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">Java Tutorials</span></th>
+              <td>Java</td>
+              <td>Language and platform basics</td>
+              <td><a class="resource-link" href="https://dev.java/learn/" target="_blank" rel="noopener noreferrer">Open Java tutorials ↗</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="language-name">.NET Learn</span></th>
+              <td>C# and .NET</td>
+              <td>Guided paths and practical examples</td>
+              <td><a class="resource-link" href="https://learn.microsoft.com/dotnet/" target="_blank" rel="noopener noreferrer">Open .NET Learn ↗</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section timetable-section" id="timetable" aria-labelledby="timetable-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">05 / A SAMPLE STUDY PLAN</p>
+          <h2 id="timetable-title">A week of learning</h2>
+        </div>
+        <p class="section-summary">A simple example of how you might divide time between web fundamentals and programming practice.</p>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Weekly technology study timetable" tabindex="0">
+        <table class="timetable">
+          <caption>Sample weekly learning timetable · adjust it to suit your own pace</caption>
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">09:00–10:00</th>
+              <td>HTML basics</td>
+              <td>Python syntax</td>
+              <td class="merged-session" rowspan="2">Build a small web page</td>
+              <td>JavaScript basics</td>
+              <td>Review notes</td>
+            </tr>
+            <tr>
+              <th scope="row">10:00–11:00</th>
+              <td>CSS foundations</td>
+              <td>Practice exercises</td>
+              <td>DOM concepts</td>
+              <td>Mini project</td>
+            </tr>
+            <tr class="break-row">
+              <th scope="row">11:00–11:30</th>
+              <td colspan="5">Break / catch up</td>
+            </tr>
+            <tr>
+              <th scope="row">11:30–12:30</th>
+              <td>Layout practice</td>
+              <td>Python project</td>
+              <td>Responsive design</td>
+              <td>Build interactions</td>
+              <td>Weekly review</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">Example only: shorter, regular practice sessions can be easier to maintain than a packed schedule.</p>
+    </section>
+
+    <aside class="closing-note">
+      <span class="closing-mark" aria-hidden="true">i</span>
+      <p><strong>One last tip</strong><br>Use comparisons to narrow your options, then build a small project. Hands-on practice is the best way to find what fits.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">T</span> TechTrack</a>
+    <p>Technology, made a little easier to compare.</p>
+    <a class="back-top" href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
